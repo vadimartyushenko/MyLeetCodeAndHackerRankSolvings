@@ -44,4 +44,6 @@ values
 --(sq_station.nextval, 'Philadelphia', 'PA');
 --(sq_station.nextval, 'San Antonio', 'TX');
 --(sq_station.nextval, 'San Diego', 'CA');
-(sq_station.nextval, 'Dallas', 'TX');
+--(sq_station.nextval, 'Dallas', 'TX');
+--(sq_station.nextval, 'Austin', 'TX');
+(sq_station.nextval, 'Indianapolis', 'IN');
