@@ -23,3 +23,18 @@ alter table STUDENTS
   pctfree 10
   initrans 2
   maxtrans 255;
+  ---------------------------------------------------------
+CREATE SEQUENCE sq_students
+  MINVALUE 1
+  MAXVALUE 999999999999999999999999999
+  START WITH 1
+  INCREMENT BY 1
+  CACHE 20;
+  ---------------------------------------------------------
+insert into students s
+(s.id, s.name, s.marks)
+values
+--(sq_students.nextval, 'Ashley', 81);
+--(sq_students.nextval, 'Samantha', 75);
+--(sq_students.nextval, 'Julia', 76);
+(sq_students.nextval, 'Belvet', 84);
