@@ -22,5 +22,16 @@ values
 --(20, 20, 23);
 --(20, 20, 20);
 --(20, 21, 22);  
-(13, 14, 30);  
+(13, 14, 30);
+--решение
+select
+case
+  when a+b<c or a+c<b or c+b<a then 'Not A Triangle'
+  else case 
+         when a=b and b=c and a=c then 'Equilateral'
+         when a=b or b=c or a=c then 'Isosceles'
+         else 'Scalene'
+       end   
+end
+from triangles;
   
