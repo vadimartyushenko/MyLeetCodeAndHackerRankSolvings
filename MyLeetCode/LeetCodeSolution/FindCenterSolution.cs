@@ -1,6 +1,6 @@
 namespace LeetCodeSolution;
 
-public class FindCenterSolution
+public static class FindCenterSolution
 {
     public static void Solve()
     {

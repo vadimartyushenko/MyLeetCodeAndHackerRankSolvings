@@ -1,6 +1,6 @@
 ﻿using LeetCodeSolution;
 
-var task_name = "FindCenter";
+var task_name = "TwoSum";
 
 switch (task_name)
 {
@@ -9,6 +9,9 @@ switch (task_name)
         break;
     case "FindCenter":
         FindCenterSolution.Solve();
+        break;
+    case "TwoSum":
+        TwoSumSolution.Solve();
         break;
     default:
         throw new ArgumentException("Unexpected task");

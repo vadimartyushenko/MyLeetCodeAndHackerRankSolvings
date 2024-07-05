@@ -1,6 +1,6 @@
 namespace LeetCodeSolution;
 
-public class AddTwoNumbersSolution
+public static class AddTwoNumbersSolution
 {
     public static void Solve()
     {
