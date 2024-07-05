@@ -1,6 +1,6 @@
 ﻿using LeetCodeSolution;
 
-var task_name = "TwoSum";
+var task_name = "LengthOfLongestSubstring";
 
 switch (task_name)
 {
@@ -12,6 +12,9 @@ switch (task_name)
         break;
     case "TwoSum":
         TwoSumSolution.Solve();
+        break;
+    case "LengthOfLongestSubstring":
+        LengthOfLongestSubstringSolution.Solve();
         break;
     default:
         throw new ArgumentException("Unexpected task");
