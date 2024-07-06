@@ -1,8 +1,8 @@
 ﻿using LeetCodeSolution;
 
-var task_name = "LengthOfLongestSubstring";
+var taskName = "LengthOfLongestSubstring";
 
-switch (task_name)
+switch (taskName)
 {
     case "AddTwoNumbers":
         AddTwoNumbersSolution.Solve();
