@@ -2,7 +2,7 @@
 
 namespace LeetCodeSolution;
 
-internal class LengthOfLongestSubstringSolution
+public class LengthOfLongestSubstringSolution
 {
     public static void Solve()
     {
@@ -27,7 +27,7 @@ internal class LengthOfLongestSubstringSolution
         Debug.Assert(result2 == 3);
     }
 
-    static int LengthOfLongestSubstring(string s)
+    public static int LengthOfLongestSubstring(string s)
     {
         if (string.IsNullOrEmpty(s))
             return 0;
@@ -53,7 +53,7 @@ internal class LengthOfLongestSubstringSolution
         return max;
     }
 
-    static int LengthOfLongestSubstring2(string s)
+    public static int LengthOfLongestSubstring2(string s)
     {
         if (string.IsNullOrEmpty(s))
             return 0;
